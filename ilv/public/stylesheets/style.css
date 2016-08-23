@@ -65,6 +65,7 @@ body {
 .featurette:hover .featurette-image {
   filter: grayscale(0);
   -webkit-filter: grayscale(0);
+  opacity: 1;
 }
 
 .featurette-image {
@@ -73,8 +74,8 @@ body {
     max-height: 300px;
     filter: grayscale(1);
     -webkit-filter: grayscale(1);
-    transition-property: filter;
-	  transition-duration: 1s;
+    opacity: .7;
+    transition: all 1s ease;
 }
 
 .featurette-image.pull-left {
@@ -289,13 +290,14 @@ blockquote em{
   max-height: 110px;
   filter: grayscale(1);
   -webkit-filter: grayscale(1);
-  transition-property: filter;
-	transition-duration: 1s;
+  opacity: .7;
+  transition: all 1s ease;
 }
 
 .thumb img:hover {
   filter: grayscale(0);
   -webkit-filter: grayscale(0);
+  opacity: 1;
 }
 
 .modal {
