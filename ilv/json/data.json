@@ -1,0 +1,143 @@
+{"site":
+  [
+    {
+      "tagid": "puppy",
+      "title": "A puppy!",
+      "subtitle": "",
+      "description": "Yes! I was a beautifull puppy too, fluffy, crazy and full of curiosity. I had a kind of hard childhood, bad people makes me suffer, but one day, Anna appears in my life, and she showed me the real side of love.",
+      "imageurl": "/images/puppy_r2_c2.jpg",
+      "quote": "Until one has loved an animal a part of one's soul remains unawakened."
+    },
+    {
+      "tagid": "Friends",
+      "title": "When I knows the meaning of",
+      "subtitle": "Love!",
+      "description": "Finally I have a home full of love. My unique connection with Anna gives me a new opportunity to believe in life. She cares of me, and each second of her life is a present for me.",
+      "imageurl": "/images/bailey_look.jpg",
+      "quote": "The average dog is a nicer person than the average person."
+    },
+    {
+      "tagid": "Connection",
+      "title": "She's Anna",
+      "subtitle": "My Human Soulmate!",
+      "description": "Every small thing in life has a reason to be. She found's me, love's me, we are life parterns, support each other in bad times, we have an unique connection, pure, our hearts are linked by the love.",
+      "imageurl": "/images/anna_and_me.jpg",
+      "quote": "An animal's eyes have the power to speak a great language."
+    },
+    {
+      "tagid": "Hard Times",
+      "title": "Kisses",
+      "subtitle": "and full of love",
+      "description": "We live hard, really hard times. I support you when you world breaks down. You did everything humanly possible to keep me with you, suffer with my and my illness, I'll never forget your love. I will be FOREVER with you.",
+      "imageurl": "/images/kisses.jpg",
+      "quote": "I've seen a look in dogs eyes, a quickly vanishing look of amazed contempt, and I'm convinced that dogs think, humans are nuts."
+    }
+  ],
+  "gallery": [
+    {
+      "id": "1",
+      "title": "At the park!",
+      "description": "Everyday is a good day to go to the park with Anna!.",
+      "thumb": "/images/thumb/gal1.jpg",
+      "imageurl": "/images/gal1.jpg"
+    },
+    {
+      "id": "2",
+      "title": "My Brother!",
+      "description": "He is scooty, my little brother! I'm really happy to go out with him.",
+      "thumb": "/images/thumb/gal2.jpg",
+      "imageurl": "/images/gal2.jpg"
+    },
+    {
+      "id": "3",
+      "title": "At the beach!",
+      "description": "I love to go out with Anna and enjoy the sunny days.",
+      "thumb": "/images/thumb/gal3.png",
+      "imageurl": "/images/gal3.png"
+    },
+    {
+      "id": "4",
+      "title": "Getting elegant",
+      "description": "Sometimes we look like a royalty people. Elegance is a must!",
+      "thumb": "/images/thumb/gal4.png",
+      "imageurl": "/images/gal4.png"
+    },
+    {
+      "id": "5",
+      "title": "I love to use trimmings on my head",
+      "description": "A beautiful lady always must wear accessories.",
+      "thumb": "/images/thumb/gal5.png",
+      "imageurl": "/images/gal5.png"
+    },
+    {
+      "id": "6",
+      "title": "My Birthday!",
+      "description": "A hat, food and Anna's love. That's all I need.",
+      "thumb": "/images/thumb/gal6.png",
+      "imageurl": "/images/gal6.png"
+    },
+    {
+      "id": "7",
+      "title": "Tired!",
+      "description": "We are tired of run! always fun!.",
+      "thumb": "/images/thumb/gal7.png",
+      "imageurl": "/images/gal7.png"
+    },
+    {
+      "id": "8",
+      "title": "I feel sleepy",
+      "description": "My beloved couch, I love to sleep there.",
+      "thumb": "/images/thumb/gal8.png",
+      "imageurl": "/images/gal8.png"
+    },
+    {
+      "id": "9",
+      "title": "Always together",
+      "description": "Soulmates looking at the same direction, we will be connected forerver.",
+      "thumb": "/images/thumb/gal9.png",
+      "imageurl": "/images/gal9.png"
+    },
+    {
+      "id": "10",
+      "title": "We are inclusive family",
+      "description": "My brothers and I, sharing love.",
+      "thumb": "/images/thumb/gal10.png",
+      "imageurl": "/images/gal10.png"
+    },
+    {
+      "id": "11",
+      "title": "The Ocean",
+      "description": "I love to go to the ocean with Anna, some fresh water for me please!.",
+      "thumb": "/images/thumb/gal11.png",
+      "imageurl": "/images/gal11.png"
+    },
+    {
+      "id": "12",
+      "title": "Doing some exercise!",
+      "description": "Wait for me!.",
+      "thumb": "/images/thumb/gal12.png",
+      "imageurl": "/images/gal12.png"
+    },
+    {
+      "id": "13",
+      "title": "Snow snow, sweet snow",
+      "description": "I have to confess, I love the snow.",
+      "thumb": "/images/thumb/gal13.png",
+      "imageurl": "/images/gal13.png"
+    },
+    {
+      "id": "14",
+      "title": "I love winter",
+      "description": "I said I LOVE the snow!",
+      "thumb": "/images/thumb/gal14.png",
+      "imageurl": "/images/gal14.png"
+    },
+    {
+      "id": "15",
+      "title": "Selfie!",
+      "description": "OMG another selfie?.",
+      "thumb": "/images/thumb/gal15.png",
+      "imageurl": "/images/gal15.png"
+    }
+  ]
+}

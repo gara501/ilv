@@ -1,0 +1,46 @@
+extends layout
+
+block content
+  .container#me
+    each service, i in services.site
+      hr.featurette-divider
+      #about.featurette
+        img.featurette-image.img-circle.img-responsive.pull-right(src='#{service.imageurl}')
+        h2.featurette-heading
+          | #{service.title}
+          span.text-muted   #{service.subtitle}
+        p.lead
+          | #{service.description}
+      hr.featurette-divider
+      .market
+        blockquote #{service.quote}
+    h2.featurette-heading#moments
+      hr.featurette-divider
+      | Happy Moments!
+    .row
+      .thumb-container
+        each service, i in services.gallery
+          .thumb
+            a(href="#", data-toggle='modal', data-target='#modalGallery', data-title='#{service.title}', data-desc='#{service.description}', data-image='#{service.imageurl}')
+              img(src="#{service.thumb}", data-holder-rendered="true", alt="#{service.title}")
+    hr.featurette-divider
+    .gb#bye
+      p
+        | I have to say good bye, life is short, always be, but if you have the most precious gift in the world
+        | a beloved human to live with, a person that love's you even more than it's own life, then, only then, life has been worth.
+        | I Love you my beloved Anna, and I will be waiting for you in the heaven. Our heaven.
+      img(src="/images/paw.png",class="paw", alt="paw")
+  // Modal
+  #modalGallery.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel')
+    .modal-dialog(role='document').modal-lg
+      .modal-content
+        .modal-header
+          button.close(type='button', data-dismiss='modal', aria-label='Close')
+            span(aria-hidden='true') ×
+          h4#myModalLabel.modal-title Happy Moments!
+        .modal-body
+          img(src="", data-holder-rendered="true", alt="")
+          h3
+          p
+        .modal-footer
+          button.btn.btn-default(type='button', data-dismiss='modal') Close

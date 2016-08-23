@@ -1,0 +1,359 @@
+/*
+ * Start Bootstrap - One Page Wonder (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.header-image {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: url('../images/bailey_market.jpg') no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: right bottom;
+}
+
+@media(min-width:1200px) {
+  .header-image {
+    background-position: right center;
+  }
+}
+
+.headline {
+    padding: 120px 0;
+}
+
+.headline h1 {
+    color: #fff;
+    font-family: 'Lobster', cursive;
+    font-size: 130px;
+    text-align: right;
+    text-shadow: 0px 0px 1px rgba(45, 44, 44, 1);
+}
+
+.headline h2 {
+    color: #fff;
+    font-size: 77px;
+    font-family: 'Farsan', cursive;
+    text-align: right;
+    text-shadow: 0px 0px 1px rgba(45, 44, 44, 1);
+}
+
+.headline h1.small {
+  font-size: 80px;
+}
+
+.headline h2.small {
+  font-size: 30px;
+}
+
+.featurette-divider {
+    margin: 50px 0;
+}
+
+.featurette {
+    overflow: hidden;
+}
+
+.featurette:hover .featurette-image {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+}
+
+.featurette-image {
+    border: 2px solid #ea2149;
+    max-width: 300px;
+    max-height: 300px;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    transition-property: filter;
+	  transition-duration: 1s;
+}
+
+.featurette-image.pull-left {
+    margin-right: 40px;
+}
+
+.featurette-image.pull-right {
+    margin-left: 40px;
+}
+
+.featurette-heading {
+    color: #ea2149;
+    font-size: 50px;
+    font-family: 'Farsan', cursive;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+@media(max-width:1200px) {
+    .headline h1 {
+        font-size: 140px;
+    }
+
+    .headline h2 {
+        font-size: 63px;
+    }
+
+    .featurette-divider {
+        margin: 50px 0;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 20px;
+    }
+
+    .featurette-image.pull-right {
+        margin-left: 20px;
+    }
+
+    .featurette-heading {
+        font-size: 35px;
+    }
+}
+
+@media(max-width:991px) {
+    .headline h1 {
+        font-size: 105px;
+    }
+
+    .headline h2 {
+        font-size: 50px;
+    }
+
+    .featurette-divider {
+        margin: 40px 0;
+    }
+
+    .featurette-image {
+        max-width: 50%;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 10px;
+    }
+
+    .featurette-image.pull-right {
+        margin-left: 10px;
+    }
+
+    .featurette-heading {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:768px) {
+    .container {
+        margin: 0 15px;
+    }
+
+    .featurette-divider {
+        margin: 40px 0;
+    }
+
+    .featurette-heading {
+        font-size: 25px;
+    }
+}
+
+@media(max-width:668px) {
+    .headline h1 {
+        font-size: 70px;
+    }
+
+    .headline h2 {
+        font-size: 32px;
+    }
+
+    .featurette-divider {
+        margin: 30px 0;
+    }
+}
+
+@media(max-width:640px) {
+    .headline {
+        padding: 75px 0 25px 0;
+    }
+
+    .headline h1 {
+        font-size: 60px;
+    }
+
+    .headline h2 {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:375px) {
+    .featurette-divider {
+        margin: 10px 0;
+    }
+
+    .featurette-image {
+        max-width: 100%;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .featurette-image.pull-right {
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+}
+
+.navbar {
+  background: #fff;
+}
+
+.navbar-brand {
+  color: #ea2149 !important;
+  font-family: 'Lobster', cursive;
+  font-size: 2.5rem;
+  transition: all 1s ease;
+}
+
+.navbar-brand:hover {
+  color: #ccc;
+}
+
+.navbar-nav li a {
+  font-family: 'Farsan', cursive;
+  font-size: 2rem;
+}
+
+.market {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+
+blockquote {
+  border-left: none;
+  display:block;
+  background: transparent;
+  bottom: 0;
+  padding: 0;
+
+  /*Font*/
+  font-family: 'Lobster', cursive;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  color: #4a4a4a;
+  text-align: center;
+}
+
+blockquote::before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #999;
+
+  /*Positioning*/
+  position: relative;
+  left: 0;
+  margin-right: 20px;
+  top:25px;
+}
+
+blockquote::after{
+  /*Reset to make sure*/
+  content: "";
+}
+
+blockquote em{
+  font-style: italic;
+}
+
+.thumb-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.thumb img {
+  max-height: 110px;
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+  transition-property: filter;
+	transition-duration: 1s;
+}
+
+.thumb img:hover {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+}
+
+.modal {
+  font-family: 'Farsan', cursive;
+}
+
+.modal-body h3 {
+  color: #ea2149;
+  font-size: 2.5rem;
+}
+
+.modal-body p {
+  font-size: 2rem;
+}
+
+.modal-body img {
+  width: 100%;
+}
+
+.gb {
+  height: 500px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  background: url('../images/bye.png') no-repeat top center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  position: relative;
+}
+
+.gb p {
+  color: #fff;
+  font-family: 'Farsan', cursive;
+  position: absolute;
+  bottom: 0;
+  background: black;
+  opacity: 0.7;
+  font-size: 25px;
+  padding: 5px;
+  line-height: 1.5em;
+}
+
+.lead {
+  font-family: 'Farsan', cursive;
+}
+
+.paw {
+  bottom: 10px;
+  max-width: 40px;
+  position: absolute;
+  right: 0;
+  transform: rotate(30deg);
+}
+
+@media(max-width:640px) {
+  .paw {
+    max-width: 25px;
+  }
+}
