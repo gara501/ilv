@@ -1,0 +1,10 @@
+extends layout
+block content
+  h1 data
+    each service, i in services
+      div.well
+        h3 #{service.title}
+        h3 #{service.subtitle}
+        h3 #{service.tagid}
+        h3 #{service.description}
+        h3 #{service.imageurl}
