@@ -1,0 +1,25 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/bootstrap.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Lobster|Squada+One|Farsan')
+
+  body
+
+    include ./includes/navbar.jade
+    // Page Content
+
+    block content
+  // Footer
+  .container
+    .row
+      footer
+        .col-lg-12
+          p Copyright © Bailey In loving Memory 2016
+    // /.container
+    script(src='javascripts/jquery.min.js')
+    // Bootstrap Core JavaScript
+    script(src='javascripts/bootstrap.js')
+    script(src='javascripts/site.js')
